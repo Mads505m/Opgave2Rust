@@ -1,4 +1,4 @@
-# Opgave2Rust Lavet Af Peter, Mikkel, Magnus og Mads (5 mands gruppen)
+# Opgave2Rust Lavet Af Peter, Emil, Mikkel, Magnus og Mads (5 mands gruppen)
  
 Gør præcis om opgaven siger og forklar alt 
 fektiv hukommelsesallokering og store datastrukturer
