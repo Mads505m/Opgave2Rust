@@ -1,0 +1,6 @@
+Hvordan påvirkes hukommelsesforbrug og ydeevne ved store datasæt i Rust vs. Java?
+
+Rust, Lavt hukommelsesforbrug, da der ikke er behov for GC-overhead.
+Java, Mere hukommelse bruges pga. metadata og GC-administration.  Kan opleve GC-pauser.
+Rust sikrer også bare generelt et mere sikkert og nemmere program at arbejde i, i sær is store programmer
+pga. strengere regler med  Ownership til at styre hukommelsen uden en GC.

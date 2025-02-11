@@ -1,0 +1,20 @@
+[package]
+name = "opgave2rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "Opgave1"
+path = "src/Opgave1.rs"
+
+[[bin]]
+name = "Opgave2"
+path = "src/Opgave2.rs"
+
+[[bin]]
+name = "Opgave3"
+path = "src/Opgave3.rs"
+
+
+[dependencies]
+rand = "0.9.0"

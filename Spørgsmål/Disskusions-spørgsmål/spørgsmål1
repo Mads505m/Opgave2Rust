@@ -1,0 +1,7 @@
+Hvordan adskiller Rust's memory management sig fra Java’s garbage collection?
+
+Rust bruger Ownership, Borrowing og Lifetimes til at styre hukommelsen uden en GC.
+Java har automatisk Garbage Collection, hvilket gør det lettere at skrive kode,
+men kan føre til uforudsigelige GC-pauser.
+Rust frigiver hukommelsen automatisk når man går ud fra scope, med gc bliver objektet opgivet på et
+senere tidspunkt.

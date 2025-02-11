@@ -1,0 +1,10 @@
+Sammenlign hukommelsesforbrug og ydeevne med C# eller Java's ArrayList.
+
+Rust: 4.804 millisekunder med Vec til oprettelse
+
+Java: 35.12 millisekunder med ArrayList oprettelse
+
+Til søgning var det, den samme tid.
+
+(KØRT i Release-Mode i rust (rust delen) og kører med normal "run" i IntelliJ med Java delen)
+Hvis man kørte rust i normal run mode, var Rust: 412 millisekunder.

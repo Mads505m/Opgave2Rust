@@ -1,0 +1,17 @@
+Sammenlign søge- og indsætningstider med med C# dictionary eller Java's HashMap.
+
+Rust har ingen GC, hvilket kan give mere forudsigelig ydeevne.
+Java allokerer objekter på heapen, hvilket kræver Garbage Collection.
+
+Hashmap er meget hurtigere end Vec i Rust grundet af den ikke skal lede igennem alt data, for at finde
+den specifikke datasæt.
+Det samme med arraylist
+Den bruger altså en hashmap-algo og de andre skal gennemgå dataerne i en linær rækkefølge, da vi
+ikke kender værdien
+
+Rust er hurtigere...
+
+Rust: 0.15 millisekunder
+Java: 13.7122 millisekunder
+
+Begge kørt i normal run (ikke debugmode eller optimizations builds)

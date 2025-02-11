@@ -1,0 +1,10 @@
+Forklar, hvordan Box hjælper med at minimere hukommelsesforbruget,
+og sammenlign med Java's håndtering af objekter på heapen.
+
+Rust: Box bruges til at flytte store objekter til heapen, hvilket reducerer stack-forbrug.
+Java: Heap-allokering sker automatisk via objektallokering.
+
+Box er nyttig i Rust, da det giver eksplicit kontrol over heap-allokering,
+mens Java og C# overlader dette til GC.
+
+Rust tid run mode: 0.13 millisekunder

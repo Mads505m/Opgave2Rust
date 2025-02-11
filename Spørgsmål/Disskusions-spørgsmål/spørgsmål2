@@ -1,0 +1,10 @@
+Hvad er fordelene ved Box i Rust sammenlignet med Java’s heap-allokering?
+
+Box tillader eksplicit heap-allokering, hvilket kan reducere stack-presset.
+Java's heap-allokering er automatisk, men mindre kontrol kan føre til GC-overhead.
+
+Sum-up points:
+Forudsigelig hukommelsesstyring uden garbage collection.
+Hurtigere ydeevne med mindre overhead.
+Sikkerhed ved kompileringstid (dangler pointers, null references).
+Bedre kontrol over hukommelsen, som er vigtig i systemer med hukommelseskrav.
